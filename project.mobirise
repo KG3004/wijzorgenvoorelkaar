@@ -167,8 +167,8 @@
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "showText": false,
+            "showButtons": false
           },
           "title": "Wie in jouw omgeving kan hulp gebruiken?",
           "text": "",
@@ -360,11 +360,25 @@
               },
               "authorName": "Jeanine",
               "authorBio": "User"
+            },
+            {
+              "text": "<p>“Ik vond het altijd lastig om hulp te vragen., maar ervaar nu dat vrienden en familie het juist fijn vinden om te kunnen helpen”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face2.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              },
+              "authorName": "John Smith",
+              "authorBio": "Developer"
             }
           ],
           "_anchor": "testimonials4-0",
           "_params": {
-            "count": 3,
+            "count": "4",
             "paddingTop": 3,
             "paddingBottom": 3,
             "showImages": false,
